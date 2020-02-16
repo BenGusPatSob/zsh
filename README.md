@@ -44,8 +44,8 @@ plugins=(
         zsh-syntax-highlighting
         zsh-completions
         zsh-history-substring-search
-		zsh-256color
-		autojump
+        zsh-256color
+        autojump
         )
 
 # To allow exiting with jobs in background:
