@@ -48,6 +48,9 @@ plugins=(
         autojump
         )
 
+# To allow command not found apt suggestions
+source /etc/zsh_command_not_found
+
 # To allow exiting with jobs in background:
 setopt NO_HUP
 setopt NO_CHECK_JOBS
