@@ -17,7 +17,7 @@ fonts$ sudo ./install.sh
 
 ### Configure Terminator
 
-Open Terminator and go under the Preference menu (right-click -> Preferences). 
+Open Terminator and go under the Preference menu (right-click -> Preferences) 
 
 Select as font: Meslo LG for Powerline Regular
 
@@ -35,6 +35,8 @@ $ git clone https://github.com/chrissicool/zsh-256color
 In ~/.zshrc:
 
 ```
+ZSH_THEME="agnoster"
+
 plugins=(
         git
         docker
@@ -60,10 +62,12 @@ Autojump jumps with j
 
 In preferences:
 
+```
 {
 "terminal.integrated.fontFamily": "'Meslo LG M DZ for Powerline', 'fontawesome'",
 "terminal.integrated.fontSize": 15
 }
+```
 
 
 ## Upgrade oh_my_zsh
